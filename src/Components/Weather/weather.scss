@@ -38,25 +38,23 @@ $primary: #3333;
 .search {
   width: 40px;
   height: 41px;
-   border-radius: 20px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #40e055;
   cursor: pointer;
-//   border-radius: 8px;
+  //   border-radius: 8px;
 
   .search-icon {
     height: 15px;
     width: 15px;
     color: #940606;
-    
-   
   }
 }
 
 .rain {
-     height: 250px;
-    width: 250px;
-    margin-left: 20px;
+  height: 180px;
+  width: 180px;
+  margin-left: 8rem;
 }
