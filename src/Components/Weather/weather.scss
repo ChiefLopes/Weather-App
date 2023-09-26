@@ -18,28 +18,45 @@ $primary: #3333;
 .top-bar {
   display: flex;
   justify-content: center;
-   gap: 20px;
+  gap: 20px;
   padding-top: 40px;
-  
+
   & input {
-    width: 350px;
+    width: 320px;
     height: 40px;
-    border-radius: 8px;
+    border-radius: 12px;
     outline: none;
     border: none;
     font-size: 25px;
     color: #940606;
     font-weight: 700;
     background: #ebfffc;
-    padding-left: 40px;
+    padding-left: 10px;
   }
 }
 
 .search {
-  width: 15px;
-  height: 15px;
+  width: 40px;
+  height: 41px;
+   border-radius: 20px;
   display: flex;
   justify-content: center;
-  align-items: center
- 
+  align-items: center;
+  background-color: #40e055;
+  cursor: pointer;
+//   border-radius: 8px;
+
+  .search-icon {
+    height: 15px;
+    width: 15px;
+    color: #940606;
+    
+   
+  }
+}
+
+.rain {
+     height: 250px;
+    width: 250px;
+    margin-left: 20px;
 }
