@@ -9,13 +9,22 @@ import searchIcon from "../assets/Images/Search.png";
 import drizzleIcon from "../assets/Images/drizzle.png";
 
 const Icons = {
-    sun: (props) => <img src={sunnyIcon} alt="Sun" {...props} />,
+  sun: (props) => <img src={sunnyIcon} alt="Sun" {...props} />,
   rain: (className) => <img src={rainIcon} alt="Rain" className={className} />,
   humid: () => <img src={humidIcon} alt="Humid" />,
   snow: () => <img src={snowIcon} alt="Snow" />,
   cloudy: () => <img src={cloudyIcon} alt="Cloudy" />,
   wind: () => <img src={windIcon} alt="Wind" />,
-    search: (className) => <img src={searchIcon} alt="Search" className={className} />,
+  search: (props) => (
+    <img
+      src={searchIcon}
+      alt="Search"
+      style={{
+        width: props.width,
+        height: props.height,
+      }}
+    />
+  ),
   drizzle: () => <img src={drizzleIcon} alt="Drizzle" />,
 };
 
