@@ -19,10 +19,7 @@ const Icons = {
     <img
       src={searchIcon}
       alt="Search"
-      style={{
-        width: props.width,
-        height: props.height,
-      }}
+      className={props.className} // Apply the className directly
     />
   ),
   drizzle: () => <img src={drizzleIcon} alt="Drizzle" />,

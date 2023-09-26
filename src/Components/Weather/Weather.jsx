@@ -6,7 +6,7 @@ const Weather = () => {
     <div className="container">
       <div className="top-bar">
         <input type="text" className="cityInput" placeholder="Search city" />
-        <Icons.search width="15px" height="15px" />
+        <Icons.search className="search" />
       </div>
     </div>
   );
