@@ -14,13 +14,24 @@ const Weather = () => {
         <Icons.rain className="rain" />
       </div>
       <div className="weather-desc">
-        <span className="weather-temp">23°c</span>
-              <div className="weather-location">London</div>
-              <div className="data-container">
-                  <div className="element">
-                      <img src="" alt="icon" />
-                  </div>
-              </div>
+        <div className="weather-temp">23°c</div>
+        <div className="weather-location">London</div>
+      </div>
+      <div className="data-container">
+        <div className="element">
+          <Icons.humid className="humid" />
+          <div className="data">
+            <div className="humidity-percentage">5%</div>
+            <div className="text">Humidity</div>
+          </div>
+        </div>
+        <div className="element">
+          <Icons.wind className="humid" />
+          <div className="data">
+            <div className="humidity-percentage">18km/hr</div>
+            <div className="text">Wind-speed</div>
+          </div>
+        </div>
       </div>
     </div>
   );
