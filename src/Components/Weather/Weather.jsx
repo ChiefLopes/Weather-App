@@ -54,7 +54,7 @@ const Weather = () => {
       {weather && (
         <div className="weather-desc">
           <div className="weather-temp">{weather.main.temp}°C</div>
-                  <div className="weather-location">{weather.name}</div>
+                  <div className="weather-location">{weather.name}, {weather.sys.country}</div>
         </div>
       )}
       {weather && (
