@@ -21,14 +21,14 @@ const Weather = () => {
         <div className="element">
           <Icons.humid className="humid" />
           <div className="data">
-            <div className="humidity-percentage">5%</div>
+            <div className="rate">5%</div>
             <div className="text">Humidity</div>
           </div>
         </div>
         <div className="element">
           <Icons.wind className="humid" />
           <div className="data">
-            <div className="humidity-percentage">18km/hr</div>
+            <div className="rate">18km/hr</div>
             <div className="text">Wind-speed</div>
           </div>
         </div>
