@@ -2,6 +2,13 @@ import Icons from "../Icons";
 import "./weather.scss";
 
 const Weather = () => {
+    
+    let api_key = "36c2731e80bedca7edd17caae5f275ce";
+    
+    const Search = () => {
+        
+    }
+    
   return (
     <div className="container">
       <div className="top-bar">
