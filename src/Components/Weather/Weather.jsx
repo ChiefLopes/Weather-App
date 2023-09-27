@@ -1,16 +1,22 @@
 import Icons from "../Icons";
+import { useRef } from "react";
 import "./weather.scss";
 
 const Weather = () => {
+    const cityInput = useRef();
     
-    
+    const addValueToInput = () => {
+      if (cityInput.current) {
+        cityInput.current.value = ""; 
+      }
+    };
     
  
     
   return (
     <div className="container">
       <div className="top-bar">
-        <input type="text" className="cityInput" placeholder="Search city" />
+        <input type="text" ref={cityInput} className="cityInput" placeholder="Search city" />{addValueToInput()}
         <span className="search">
           <Icons.search className="search-icon" />
         </span>
@@ -41,5 +47,7 @@ const Weather = () => {
     </div>
   );
 };
+
+
 
 export default Weather;
