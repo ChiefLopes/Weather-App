@@ -17,12 +17,15 @@ const Icons = {
   ),
   snow: () => <img src={snowIcon} alt="Snow" />,
   cloudy: () => <img src={cloudyIcon} alt="Cloudy" />,
-  wind: (props) => <img src={windIcon} alt="Wind" className={props.className}/>,
+  wind: (props) => (
+    <img src={windIcon} alt="Wind" className={props.className} />
+  ),
   search: (props) => (
     <img
       src={searchIcon}
       alt="Search"
-      className={props.className} // Apply the className directly
+      className={props.className}
+      onClick={props.onClick}
     />
   ),
   drizzle: () => <img src={drizzleIcon} alt="Drizzle" />,
