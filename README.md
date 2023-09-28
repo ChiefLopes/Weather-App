@@ -2,7 +2,7 @@
 
 This is a weather web that fetches and displays weather data from cities around the world.
 
-This project was done with React+viite along with saas css. 
+This project was done with React+vite along with saas(scss). 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
