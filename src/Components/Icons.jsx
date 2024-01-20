@@ -7,6 +7,7 @@ import windIcon from "../assets/Images/wind.png";
 import searchIcon from "../assets/Images/Search.png";
 import drizzleIcon from "../assets/Images/drizzle.png";
 
+// Defining the images 
 const Icons = {
   sun: (props) => <img src={sunnyIcon} alt="Sun" {...props} />,
   rain: (props) => (
