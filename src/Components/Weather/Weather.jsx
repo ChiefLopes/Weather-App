@@ -15,7 +15,7 @@ const Weather = () => {
       if (city.trim() === "") return;
 
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${api_key}` 
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${api_key}`  //Specifying which data to fetch from the API
     )
       .then((res) => res.json())
       .then((data) => setWeather(data));
