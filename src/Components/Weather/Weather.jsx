@@ -8,7 +8,7 @@ const Weather = () => {
     const cityInput = useRef();
  
 
-  const api_key = "36c2731e80bedca7edd17caae5f275ce";
+  const api_key = "36c2731e80bedca7edd17caae5f275ce"; //Weather API URl
 
   useEffect(() => {
     // Only fetch weather data if the city is not empty
