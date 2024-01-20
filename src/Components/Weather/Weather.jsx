@@ -4,7 +4,7 @@ import "./weather.scss";
 
 const Weather = () => {
   const [city, setCity] = useState("");
-  const [weather, setWeather] = useState(null); // Use null as the initial state
+  const [weather, setWeather] = useState(null); 
     const cityInput = useRef();
  
 
