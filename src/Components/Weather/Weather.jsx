@@ -27,11 +27,7 @@ const Weather = () => {
     setCity(inputCity);
   };
 
-//   const addValueToInput = () => {
-//     if (cityInput.current) {
-//       cityInput.current.value = "";
-//     }
-//   };
+
 
   return (
     <div className="container">
